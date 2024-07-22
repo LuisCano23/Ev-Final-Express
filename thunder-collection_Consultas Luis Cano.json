@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Consultas Luis Cano",
+    "collectionId": "81dbc881-9617-4be7-9da0-38b76b7f9af9",
+    "dateExported": "2024-07-22T15:20:21.326Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7aaf5ec6-6b1f-46d9-9c99-24bd0c3482ea",
+            "colId": "81dbc881-9617-4be7-9da0-38b76b7f9af9",
+            "containerId": "",
+            "name": "Ver todo el personal",
+            "url": "localhost:3000/personal",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-22T15:13:59.174Z",
+            "modified": "2024-07-22T15:14:14.567Z",
+            "headers": []
+        },
+        {
+            "_id": "059c01f4-fb14-4d4a-8946-91ea8d9ebb0e",
+            "colId": "81dbc881-9617-4be7-9da0-38b76b7f9af9",
+            "containerId": "",
+            "name": "Ver uno de personal",
+            "url": "localhost:3000/personal/5",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-22T15:14:47.014Z",
+            "modified": "2024-07-22T15:14:57.488Z",
+            "headers": []
+        },
+        {
+            "_id": "e7da81be-3323-4e6b-a33e-f2828345687f",
+            "colId": "81dbc881-9617-4be7-9da0-38b76b7f9af9",
+            "containerId": "",
+            "name": "Agregar personal",
+            "url": "localhost:3000/personal",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-07-22T15:15:11.670Z",
+            "modified": "2024-07-22T15:16:20.837Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Personal Prueba\",\n  \"rol\": \"Test\",\n  \"salario\": 1111\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0ab0079e-0abc-438c-8c64-8abffcfbe999",
+            "colId": "81dbc881-9617-4be7-9da0-38b76b7f9af9",
+            "containerId": "",
+            "name": "Modificar un personal",
+            "url": "localhost:3000/personal/11",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-07-22T15:16:40.182Z",
+            "modified": "2024-07-22T15:18:01.942Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Personal modificado\",\n  \"rol\": \"Test modificado\",\n  \"salario\": 2222\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3e63dbf6-858a-4eb7-8920-c82b7ed59191",
+            "colId": "81dbc881-9617-4be7-9da0-38b76b7f9af9",
+            "containerId": "",
+            "name": "Eliminar un personal",
+            "url": "localhost:3000/personal/11",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-07-22T15:18:24.758Z",
+            "modified": "2024-07-22T15:19:54.901Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxjdkBnbWFpbC5jb20iLCJpYXQiOjE3MjE2NjE1NjB9.5ZOCnnnxx-D8l_JWqyxLw3G914ZnNltOgiTGGzqgBkQ"
+                }
+            ]
+        }
+    ],
+    "ref": "dYCkxNyDhLGftlohtp8fJ7Hl25Kt7Is3Nep8skBVk0J51qLBnuoHluHYpi634KNnGElh-7stLv3ud8Ab0vmUpQ"
+}
